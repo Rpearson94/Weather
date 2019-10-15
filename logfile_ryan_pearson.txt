@@ -1,0 +1,101 @@
+commit 478dd6dde50118dbadef6270f8a30952515cda23
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Tue Oct 15 13:26:01 2019 -0400
+
+    Final commit
+
+commit 5cdd1bacc935d15717ccbb0e851c39ed79f355d9
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Tue Oct 15 13:11:39 2019 -0400
+
+    added chart component next step is to add numbers to the chart
+
+commit f472f62a1bf1f7aa2d4aa78aaa94d99aa9d3b59c
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Tue Oct 15 12:56:12 2019 -0400
+
+    corrected issues with weather list rendering improperly.
+
+commit 464fba2278e07736e4cb02f5818cd8c30ee25f1a
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Tue Oct 15 00:17:39 2019 -0400
+
+    Completed up to section 4, Cannot get weather info into store.
+
+commit 4dd10df4bb69466ee790a1e5b9f2a815c6182c02
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Mon Oct 14 22:30:09 2019 -0400
+
+    Completed weather 1 document.
+
+commit 0b44856883c7309f09bf8af4540f07616df63939
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Mon Oct 14 21:52:32 2019 -0400
+
+    Added new action to fetch from OWM.
+
+commit a6f3c5b7a3f33c5412dd11832fdf3480c97d61ae
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Mon Oct 14 21:49:11 2019 -0400
+
+    Added new packages
+
+commit ee34b68de648262a5f6935afb570074f5dba4176
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Mon Oct 14 21:42:13 2019 -0400
+
+    Completed up to section 2
+
+commit 74036a6077c174aab8fd9871b64c0e4e2db241dd
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Mon Oct 14 21:41:12 2019 -0400
+
+    Completed up to section 1.2
+
+commit e9257a18ef61073ed97e646ce941e6065ffc0643
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Sun Oct 13 16:17:20 2019 -0400
+
+    Added Search bar and css.
+
+commit c6453e179fb876331a268dec2d51649606490c55
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Sun Oct 13 15:37:38 2019 -0400
+
+    Created root component, root reducer, and removed boilerplate code.
+
+commit 15f8dbfa9703b415187e9a07db85d766be072d3e
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Sun Oct 13 15:30:53 2019 -0400
+
+    Added new dependencies.
+
+commit bd18fecb363dbb4c595d06cdbc612892154f2ab5
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Sun Oct 13 15:27:05 2019 -0400
+
+    Updated gitignore.
+
+commit ca0a42e1a5c4cd603413b80ed7d1b7fe54ec0f7d
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Sun Oct 13 15:26:06 2019 -0400
+
+    Updated gitignore
+
+commit ee37fefd8cb3796a74b0bc0852f706c9f0f81751
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Sun Oct 13 15:24:02 2019 -0400
+
+    Delete package-lock.json
+
+commit 6ca66b825085a883d89cb2ded261a89c211ad1aa
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Sun Oct 13 15:22:06 2019 -0400
+
+    Updated the gitignore file.
+
+commit b15883544e8932962e82874adb24f36fecdfe387
+Author: Ryan Pearson <rpearson1994@icloud.com>
+Date:   Mon Sep 30 17:24:00 2019 -0400
+
+    Initial commit from Create React App
