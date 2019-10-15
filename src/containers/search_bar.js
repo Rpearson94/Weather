@@ -1,19 +1,30 @@
 import React, { Component } from 'react';
 
-export default class SearchBar extends Component {
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { fetchWeather } from '../actions/index';
+
+class SearchBar extends Component {
   constructor(props) {
     super(props);
+
     this.state = { term: '' };
+
     this.onInputChange = this.onInputChange.bind(this);
+    this.onFormSubmit = this.onFormSubmit.bind(this);
   }
 
+  // An alternative way is to use the ES6 array function like below. Then it is unnecessary to do the bind above anymore.
+  // onInputChange = event => {
   onInputChange(event) {
-    console.log(event.target.value);
-    this.setState({ term: 'event.target.value' });
+    // console.log(event.target.value);
+    this.setState({ term: event.target.value });
   }
 
   onFormSubmit(event) {
     event.preventDefault();
+    this.props.fetchWeather(this.state.term);
+    this.setState({ term: '' });
   }
 
   render() {
@@ -22,8 +33,6 @@ export default class SearchBar extends Component {
         <input
           placeholder='Get a five-day forecast in your favorite cities'
           className='form-control'
-          // The following attribute is to make SearchBar
-          // a "controlled" component
           value={this.state.term}
           onChange={this.onInputChange}
         />
@@ -36,3 +45,12 @@ export default class SearchBar extends Component {
     );
   }
 }
+
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ fetchWeather: fetchWeather }, dispatch);
+}
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(SearchBar);
