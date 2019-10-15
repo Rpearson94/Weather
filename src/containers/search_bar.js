@@ -14,8 +14,6 @@ class SearchBar extends Component {
     this.onFormSubmit = this.onFormSubmit.bind(this);
   }
 
-  // An alternative way is to use the ES6 array function like below. Then it is unnecessary to do the bind above anymore.
-  // onInputChange = event => {
   onInputChange(event) {
     // console.log(event.target.value);
     this.setState({ term: event.target.value });
