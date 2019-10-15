@@ -13,9 +13,19 @@ code {
 }
 
 .search-bar {
-  margin-top: 25px;
+  margin: 20px;
+}
+.search-bar input {
+  margin-right: 5px;
+  width: 90%;
+}
+td,
+th {
+  vertical-align: middle !important;
+  text-align: center !important;
 }
 
-.ssearch-bar input {
-  margin-right: 5px;
+td:first-of-type > div {
+  height: 200px;
+  width: 250px;
 }
