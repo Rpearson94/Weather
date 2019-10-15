@@ -13,8 +13,6 @@ import rootReducer from './reducers';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { createStore, applyMiddleware } from 'redux';
-
 const store = createStore(rootReducer, {}, applyMiddleware(ReduxPromise));
 
 ReactDOM.render(
